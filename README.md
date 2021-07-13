@@ -9,9 +9,3 @@ Clone repository
 ```
 git clone https://github.com/moeb98/moe-cstate
 ```
-
-Load cState template (as git submodule)
-
-```
-git submodule update --init --recursive
-```
