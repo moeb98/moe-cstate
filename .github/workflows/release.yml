@@ -27,7 +27,7 @@ jobs:
         uses: actions/upload-artifact@v2
         with: 
           name: rendered-html
-          path: ./public                    
+          path: ./docs
 
 #      - name: Checkout GitHub Pages Branch
 #        uses: actions/checkout@v2
