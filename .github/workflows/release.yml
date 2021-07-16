@@ -49,5 +49,5 @@ jobs:
       - name: Push
         working-directory: ./gh-pages
         run: |
-          REMOTE="https://moeb98:${GITHUB_TOKEN}@github.com/moeb98/moeb98.github.io.git"
+          REMOTE="https://github.com/moeb98/moeb98.github.io.git"
           git push "${REMOTE}"
