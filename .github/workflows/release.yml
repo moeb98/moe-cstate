@@ -23,11 +23,18 @@ jobs:
       - name: Build
         run: hugo --minify
       
-      - name: Render
-        uses: actions/upload-artifact@v2
-        with: 
-          name: rendered-html
-          path: ./docs
+#      - name: Render
+#        uses: actions/upload-artifact@v2
+#        with: 
+#          name: rendered-html
+#          path: ./public
+          
+      - name: Deploy
+        uses: peaceiris/actions-gh-pages@v3
+        if: github.ref == 'refs/heads/main'
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./public          
 
 #      - name: Checkout GitHub Pages Branch
 #        uses: actions/checkout@v2
