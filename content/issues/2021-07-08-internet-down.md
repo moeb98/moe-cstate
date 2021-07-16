@@ -18,4 +18,4 @@ Planned maintenance window for the internet connection causing online and cloud 
 ---
 
 *resolved* – connectivity restored
-*update* – currently working in maintenance mode {{< track "2021-07-08 06:06:00" >}}
+*update* –  working again {{< track "2021-07-08 06:06:00" >}}
