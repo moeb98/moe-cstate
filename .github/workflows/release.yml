@@ -32,9 +32,9 @@ jobs:
       - name: Checkout GitHub Pages Branch
         uses: actions/checkout@v2
         with:
-          ref: "gh-pages"
+          repository: "${GITHUB_ACTOR}/moeb98.github.io"
           path: "gh-pages"
-      - name: Extract MkDocs Artifact
+      - name: Copy to GitHub Pages
         run: |
           rm -rf gh-pages/*
           cp -Rv ./public/* gh-pages/
@@ -48,5 +48,5 @@ jobs:
       - name: Push
         working-directory: ./gh-pages
         run: |
-          REMOTE="https://${GITHUB_ACTOR}:${GITHUB_TOKEN}@github.com/${GITHUB_REPOSITORY}.git"
-          git push "${REMOTE}" HEAD:gh-pages
+          REMOTE="https://${GITHUB_ACTOR}:${GITHUB_TOKEN}@github.com/moeb98.github.io.git"
+          git push "${REMOTE}"
