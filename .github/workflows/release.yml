@@ -33,11 +33,13 @@ jobs:
         uses: actions/checkout@v2
         with:
           repository: "moeb98/moeb98.github.io"
+          fetch-depth: 0
+          token: ${{ secrets.TOKEN }}
           ref: "master"
-          path: "gh-pages"
+          path: "./gh-pages"
       - name: Copy to GitHub Pages
         run: |
-          rm -rf gh-pages/*
+          rm -rf ./gh-pages/*
           cp -Rv ./public/* gh-pages/
       - name: Commit
         working-directory: ./gh-pages
