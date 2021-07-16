@@ -6,8 +6,7 @@ resolvedWhen: 2021-07-08 06:09:00
 # Possible severity levels: down, disrupted, notice
 severity: down
 affected:
-  - Online
-  - Cloud
+  - m.e. photography
 section: issue
 ---
 
@@ -18,4 +17,5 @@ Planned maintenance window for the internet connection causing online and cloud 
 ---
 
 *resolved* – connectivity restored
+
 *update* –  working again {{< track "2021-07-08 06:06:00" >}}
