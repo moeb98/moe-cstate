@@ -32,7 +32,7 @@ jobs:
       - name: Checkout GitHub Pages Branch
         uses: actions/checkout@v2
         with:
-          repository: "${GITHUB_ACTOR}/moeb98.github.io"
+          repository: "moeb98/moeb98.github.io"
           ref: "master"
           path: "gh-pages"
       - name: Copy to GitHub Pages
@@ -49,5 +49,5 @@ jobs:
       - name: Push
         working-directory: ./gh-pages
         run: |
-          REMOTE="https://${GITHUB_ACTOR}:${GITHUB_TOKEN}@github.com/moeb98.github.io.git"
+          REMOTE="https://moeb98:${GITHUB_TOKEN}@github.com/moeb98.github.io.git"
           git push "${REMOTE}"
