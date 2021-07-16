@@ -42,7 +42,7 @@ jobs:
       - name: Commit
         working-directory: ./gh-pages
         run: |
-          # git config --local user.email "action@github.com"
+          git config --local user.email "moeb98@yahoo.de"
           git config --local user.name "moeb98"
           git add -A
           git commit -m "Update docs"
