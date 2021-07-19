@@ -5,7 +5,7 @@ resolved: false
 # Possible severity levels: down, disrupted, notice
 severity: disrupted
 affected:
-  - uncategorized
+  - m.e. photography
 section: issue
 ---
 **Potential disruption** Performance and response times of m.e. photography degraded. Analysis in work in progress.
