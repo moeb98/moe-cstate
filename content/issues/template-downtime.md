@@ -1,12 +1,12 @@
 ---
 title: ${INSTANCE} down
-date: ${STARTS_AT}_
+date: ${STARTSAT}
 resolved: ${RESOLVED}
-resolvedWhen: ${ENDS_AT}
+resolvedWhen: ${ENDSAT}
 # Possible severity levels: down, disrupted, notice
 severity: down
 affected:
-  - ${INSTANCE}
+  - ${INSTANCE
 section: issue
 ---
 
