@@ -1,0 +1,7 @@
+version: "3.7"
+services:
+  hugo:
+    image: mrmoe/moe-hugo:latest
+    volumes:
+     - ./:/src
+    command: --minify
