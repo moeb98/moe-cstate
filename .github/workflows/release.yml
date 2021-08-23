@@ -1,0 +1,93 @@
+name: GitHub Pages
+
+on:
+  push:
+    branches:
+      - master  # Set a branch name to trigger deployment
+  pull_request:
+
+jobs:
+  deploy:
+    runs-on: ubuntu-20.04
+    concurrency:
+      group: ${{ github.workflow }}-${{ github.ref }}
+    steps:
+      - uses: actions/checkout@v2
+        with:
+          submodules: true  # Fetch Hugo themes (true OR recursive)
+          fetch-depth: 0    # Fetch all history for .GitInfo and .Lastmod
+
+      - name: Setup Hugo
+        uses: peaceiris/actions-hugo@v2
+        with:
+          hugo-version: '0.85.0'
+
+      - name: Build
+        run: hugo --minify
+
+      - name: Deploy
+        uses: peaceiris/actions-gh-pages@v3
+        if: github.ref == 'refs/heads/master'
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./public
+
+
+# name: build hugo
+
+# on:
+#   push:
+#     branches:
+#       - master
+#   pull_request:
+
+# jobs:
+#   deploy:
+#     runs-on: ubuntu-18.04
+#     steps:
+#       - uses: actions/checkout@v2
+#         with:
+#           submodules: true
+#           fetch-depth: 0
+
+#       - name: Setup Hugo
+#         uses: peaceiris/actions-hugo@v2
+#         with:
+#           hugo-version: '0.85.0'
+
+#       - name: Build
+#         run: hugo --minify
+      
+#      - name: Render
+#        uses: actions/upload-artifact@v2
+#        with: 
+#          name: rendered-html
+#          path: ./public
+          
+#       - name: Deploy
+#         uses: peaceiris/actions-gh-pages@v3
+#         if: github.ref == 'refs/heads/master'
+#         with:
+#           github_token: ${{ secrets.GITHUB_TOKEN }}
+#           publish_dir: ./docs  
+
+#      - name: Checkout GitHub Pages Branch
+#        uses: actions/checkout@v2
+#        with:
+#          repository: "moeb98/moeb98.github.io"
+#          fetch-depth: 0
+#          ref: "master"
+#          path: "./gh-pages"
+#      - name: Copy to GitHub Pages
+#        run: |
+#          rm -rf ./gh-pages/*
+#          cp -Rv ./public/* gh-pages/
+#      - name: Commit
+#        working-directory: ./gh-pages
+#        run: |
+#          git config --local user.email "moeb98@yahoo.de"
+#          git config --local user.name "moeb98"
+#          git add -A
+#          git commit -m "Update docs"
+#          REMOTE="https://${{github.repository_owner}}:${{secrets.GITHUB_TOKEN}}@github.com/moeb98/moeb98.github.io.git"
+#          git push 
