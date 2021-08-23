@@ -1,9 +1,0 @@
-version: "3.7"
-services:
-  hugo:
-    image: mrmoe/moe-hugo:latest
-    volumes:
-     - ./:/src
-    command: serve --bind 0.0.0.0
-    ports:
-     - 1313:1313
