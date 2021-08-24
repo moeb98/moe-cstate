@@ -1,11 +1,12 @@
 ---
-title: m.e. backup down
-date: 2021-08-20 11:36:41
+title: 192.168.1.3:8384 down
+date: 2021-08-20 11:36:41_
 resolved: false
+resolvedWhen: 
 # Possible severity levels: down, disrupted, notice
 severity: down
 affected:
-  - m.e. backup
+  - 192.168.1.3:8384
 section: issue
 ---
 
