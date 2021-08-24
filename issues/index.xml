@@ -8,4 +8,16 @@ update – working again (8.7. – 06:06)</description><content type="html">&lt;
 &lt;p>&lt;em>resolved&lt;/em> – connectivity restored&lt;/p>
 &lt;p>&lt;em>update&lt;/em> – working again
 &lt;span class="faded">(8.7. – 06:06)&lt;/span>
-&lt;/p></content></item></channel></rss>
+&lt;/p></content></item><item><title>[Resolved] m.e. photography down</title><link>https://moeb98.github.io/moe-cstate/issues/2021-07-08-template-downtime/</link><pubDate>Thu, 08 Jul 2021 06:05:00 +0000</pubDate><guid>https://moeb98.github.io/moe-cstate/issues/2021-07-08-template-downtime/</guid><category>2021-07-08 06:09:00</category><description>Root cause
+Planned maintenance window for the internet connection causing online and cloud service disruption
+resolved – connectivity restored
+update – working again (8.7. – 06:06)</description><content type="html">&lt;p>&lt;em>Root cause&lt;/em>&lt;/p>
+&lt;p>Planned maintenance window for the internet connection causing online and cloud service disruption&lt;/p>
+&lt;hr>
+&lt;p>&lt;em>resolved&lt;/em> – connectivity restored&lt;/p>
+&lt;p>&lt;em>update&lt;/em> – working again
+&lt;span class="faded">(8.7. – 06:06)&lt;/span>
+&lt;/p></content></item><item><title>192.168.1.3:8384 down</title><link>https://moeb98.github.io/moe-cstate/issues/2021-08-20_me-services/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://moeb98.github.io/moe-cstate/issues/2021-08-20_me-services/</guid><category/><description>Root cause
+Under analysis</description><content type="html">&lt;p>&lt;em>Root cause&lt;/em>&lt;/p>
+&lt;p>Under analysis&lt;/p>
+&lt;hr></content></item></channel></rss>
