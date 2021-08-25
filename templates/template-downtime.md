@@ -1,8 +1,8 @@
 ---
 title: ${INSTANCE} down
-date: ${STARTS_AT}_
+date: ${STARTS_AT}
 resolved: false
-resolvedWhen: 
+resolvedWhen: ${ENDS_AT}
 # Possible severity levels: down, disrupted, notice
 severity: down
 affected:
