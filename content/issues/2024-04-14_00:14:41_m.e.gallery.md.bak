@@ -1,8 +1,8 @@
 ---
 title: m.e. gallery down
 date: 2024-04-14 00:14:41
-resolved: true
-resolvedWhen: 2024-04-14 00:19:41
+resolved: false
+resolvedWhen: ${ENDS_AT}
 # Possible severity levels: down, disrupted, notice
 severity: down
 affected:
