@@ -1,12 +1,12 @@
 ---
-title: m.e. incidence down
+title: m.e. doc down
 date: 2024-08-28 00:01:41
-resolved: true
-resolvedWhen: 2024-08-28 00:09:41
+resolved: false
+resolvedWhen: ${ENDS_AT}
 # Possible severity levels: down, disrupted, notice
 severity: down
 affected:
-  - m.e. incidence
+  - m.e. doc
 section: issue
 ---
 
