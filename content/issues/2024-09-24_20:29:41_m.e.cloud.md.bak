@@ -1,12 +1,12 @@
 ---
-title: m.e. vault down
+title: m.e. cloud down
 date: 2024-09-24 20:29:41
-resolved: true
-resolvedWhen: 2024-09-24 21:42:41
+resolved: false
+resolvedWhen: ${ENDS_AT}
 # Possible severity levels: down, disrupted, notice
 severity: down
 affected:
-  - m.e. vault
+  - m.e. cloud
 section: issue
 ---
 
