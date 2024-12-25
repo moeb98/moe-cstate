@@ -1,12 +1,12 @@
 ---
-title: m.e. incidence down
-date: 2024-12-25 22:24:41
-resolved: true
-resolvedWhen: 2024-12-25 23:35:41
+title: m.e. vault down
+date: 2024-12-25 22:19:41
+resolved: false
+resolvedWhen: ${ENDS_AT}
 # Possible severity levels: down, disrupted, notice
 severity: down
 affected:
-  - m.e. incidence
+  - m.e. vault
 section: issue
 ---
 
