@@ -1,8 +1,8 @@
 ---
 title: m.e. cloud down
 date: 2025-02-24 03:21:41
-resolved: true
-resolvedWhen: 2025-02-24 03:23:41
+resolved: false
+resolvedWhen: ${ENDS_AT}
 # Possible severity levels: down, disrupted, notice
 severity: down
 affected:
