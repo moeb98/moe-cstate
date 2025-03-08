@@ -1,8 +1,8 @@
 ---
 title: m.e. photography down
 date: 2025-03-08 17:30:41
-resolved: true
-resolvedWhen: 2025-03-08 17:33:41
+resolved: false
+resolvedWhen: ${ENDS_AT}
 # Possible severity levels: down, disrupted, notice
 severity: down
 affected:
