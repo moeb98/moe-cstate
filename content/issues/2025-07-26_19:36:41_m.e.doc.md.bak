@@ -1,8 +1,8 @@
 ---
 title: m.e. doc down
 date: 2025-07-26 19:36:41
-resolved: true
-resolvedWhen: 2025-07-26 19:38:41
+resolved: false
+resolvedWhen: ${ENDS_AT}
 # Possible severity levels: down, disrupted, notice
 severity: down
 affected:
