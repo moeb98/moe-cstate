@@ -171,18 +171,27 @@ params:
     - name: m.e. photography
       description: m.e. photography website based on Wordpress
       category: Online
-    - name: m.e. cloud
-      description: Nextcloud-based cloud for me
-      category: Cloud
-    - name: m.e. incidence
-      description: Corona incidence app
-      category: Online
     - name: m.e. doc
       description: Documentation of m.e. services
+      category: Online
+    - name: m.e. weather
+      description: moe's weather app
       category: Online
     - name: m.e. gallery
       description: Piwigo-based gallery
       category: Online
+    - name: m.e. cloud
+      description: Nextcloud-based cloud for me
+      category: Cloud
+    - name: m.e. vault
+      description: moe's vault
+      category: Cloud
+    - name: m.e. immich
+      description: moe's photo app
+      category: Cloud
+    - name: m.e. dawarich
+      description: moe's private cloud tracking app
+      category: Cloud
     - name: m.e. backup
       description: Syncthing-based backup and sync solution
       category: Backup
