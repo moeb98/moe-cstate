@@ -1,12 +1,12 @@
 ---
-title: m.e. weather down
+title: m.e. doc down
 date: 2026-05-12 10:40:41
-resolved: true
-resolvedWhen: 2026-05-12 10:44:41
+resolved: false
+resolvedWhen: ${ENDS_AT}
 # Possible severity levels: down, disrupted, notice
 severity: down
 affected:
-  - m.e. weather
+  - m.e. doc
 section: issue
 ---
 
