@@ -192,6 +192,9 @@ params:
     - name: m.e. dawarich
       description: moe's private cloud tracking app
       category: Cloud
+    - name: m.e. paperless
+      description: moe's paperless office
+      category: Cloud
     - name: m.e. backup
       description: Syncthing-based backup and sync solution
       category: Backup
