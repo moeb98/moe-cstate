@@ -1,12 +1,12 @@
 ---
-title: m.e. weather down
+title: m.e. photography down
 date: 2026-06-09 01:19:52
-resolved: true
-resolvedWhen: 2026-06-09 01:30:52
+resolved: false
+resolvedWhen: ${ENDS_AT}
 # Possible severity levels: down, disrupted, notice
 severity: down
 affected:
-  - m.e. weather
+  - m.e. photography
 section: issue
 ---
 
