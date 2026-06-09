@@ -1,12 +1,12 @@
 ---
-title: m.e. doc down
+title: m.e. vault down
 date: 2026-06-09 00:38:52
-resolved: true
-resolvedWhen: 2026-06-09 00:46:52
+resolved: false
+resolvedWhen: ${ENDS_AT}
 # Possible severity levels: down, disrupted, notice
 severity: down
 affected:
-  - m.e. doc
+  - m.e. vault
 section: issue
 ---
 
