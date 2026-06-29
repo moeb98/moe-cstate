@@ -1,8 +1,8 @@
 ---
 title: m.e. dawarich down
 date: 2026-06-22 21:29:52
-resolved: true
-resolvedWhen: 2026-06-29 04:19:52
+resolved: false
+resolvedWhen: ${ENDS_AT}
 # Possible severity levels: down, disrupted, notice
 severity: down
 affected:
