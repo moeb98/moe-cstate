@@ -1,8 +1,8 @@
 ---
 title: m.e. vault down
 date: 2026-08-19 18:11:52
-resolved: true
-resolvedWhen: 2026-08-19 21:15:52
+resolved: false
+resolvedWhen: ${ENDS_AT}
 # Possible severity levels: down, disrupted, notice
 severity: down
 affected:
