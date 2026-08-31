@@ -1,8 +1,8 @@
 ---
 title: m.e. paperless down
 date: 2026-08-26 05:14:52
-resolved: true
-resolvedWhen: 2026-08-31 20:42:52
+resolved: false
+resolvedWhen: ${ENDS_AT}
 # Possible severity levels: down, disrupted, notice
 severity: down
 affected:
